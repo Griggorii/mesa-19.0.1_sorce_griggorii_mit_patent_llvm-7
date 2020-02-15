@@ -23,7 +23,7 @@ $ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 ----------------------------------------------------------------------------
 
-$ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev все другие зависимости которых не будет будет видно при выполнении компиляции в этом списке более сложные зависимости которые make может не показать.
+$ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev
 
 $ make -j16
 
