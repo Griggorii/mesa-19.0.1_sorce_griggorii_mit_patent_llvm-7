@@ -15,6 +15,6 @@ sudo tar xvpfj llvm-7.tar.bz2
 
 run folder tizonia run in folder terminal tizonia
 
-sudo dpkg -i *.deb && apt install -f
+sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 ----------------------------------------------------------------------------
