@@ -29,6 +29,8 @@ $ sudo rm /usr/include/libdrm/intel_aub.h
 
 $ sudo cp intel_aub.h /usr/include/libdrm
 
+Download my include SPIRV https://github.com/Griggorii/vulkan_19.04-1_amd64.deb install vulkan_19.04-1_amd64.deb
+
 $ make -j16
 
 Дальше смотрим если будет останавливаться компиляция то ищем эти зависимости и докачиваем после компиляция должна продолжится
