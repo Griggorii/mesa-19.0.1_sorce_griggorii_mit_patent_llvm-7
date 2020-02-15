@@ -11,6 +11,8 @@ sudo apt install llvm-7 -y
 
 sudo tar xvpfj llvm-7.tar.bz2
 
+sudo tar xvpfj llvm-5.tar.bz2
+
 ----------------------------------------------------------------------------
 
 run folder tizonia run in folder terminal tizonia
