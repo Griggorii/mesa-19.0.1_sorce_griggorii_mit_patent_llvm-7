@@ -10,3 +10,7 @@ sudo apt update
 sudo apt install llvm-7 -y
 
 sudo tar xvpfj llvm-7.tar.bz2
+
+run folder tizonia run in folder terminal tizonia
+
+sudo dpkg -i *.deb && apt install -f
