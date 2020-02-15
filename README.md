@@ -23,7 +23,7 @@ $ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 ----------------------------------------------------------------------------
 
-$ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev
+$ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev valgrind valgrind-dbg -y
 
 $ make -j16
 
