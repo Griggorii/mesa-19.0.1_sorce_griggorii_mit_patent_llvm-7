@@ -23,9 +23,11 @@ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 make -j16
 
+sudo make install
+
 Дальше смотрим если будет останавливаться компиляция то ищем эти зависимости и докачиваем после компиляция должна продолжится
 
-Готовый пакет mesa скачать тут https://www83.zippyshare.com/v/F6u7getL/file.html
+Готовый пакет mesa скачать тут https://www83.zippyshare.com/v/F6u7getL/file.html 
 
 Вы можете перевести эту mesa на другой компилятор более новый или старый открыв сначала config.status найдите там строчку /usr/lib/llvm-7/include и измените её на свой компилятор после откройте makefile и проделайте то же самое.
 
