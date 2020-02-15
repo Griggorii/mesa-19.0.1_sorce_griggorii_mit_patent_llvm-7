@@ -13,6 +13,8 @@ sudo tar xvpfj llvm-7.tar.bz2
 
 sudo tar xvpfj llvm-5.tar.bz2
 
+sudo ln -s /usr/include/locale.h /usr/include/xlocale.h
+
 ----------------------------------------------------------------------------
 
 run folder tizonia run in folder terminal tizonia
