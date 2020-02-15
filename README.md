@@ -20,3 +20,7 @@ run folder tizonia run in folder terminal tizonia
 sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 ----------------------------------------------------------------------------
+
+Вы можете перевести эту mesa на другой компилятор более новый или старый открыв сначала config.status найдите там строчку /usr/lib/llvm-7/include и измените её на свой компилятор после откройте makefile и проделайте то же самое.
+
+Tennology Griggorii@gmail.com
