@@ -19,15 +19,17 @@ sudo ln -s /usr/include/locale.h /usr/include/xlocale.h
 
 run folder tizonia run in folder terminal tizonia
 
-sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
+sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y 
 
 ----------------------------------------------------------------------------
 
+sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev все другие зависимости которых не будет будет видно при выполнении компиляции в этом списке более сложные зависимости которые make может не показать.
+
 make -j16
 
-sudo make install
-
 Дальше смотрим если будет останавливаться компиляция то ищем эти зависимости и докачиваем после компиляция должна продолжится
+
+sudo make install
 
 Готовый пакет mesa скачать тут https://www83.zippyshare.com/v/F6u7getL/file.html 
 
