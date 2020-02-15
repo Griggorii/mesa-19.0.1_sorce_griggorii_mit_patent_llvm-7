@@ -37,6 +37,14 @@ $ glxinfo
 
 Готовый пакет mesa скачать тут https://www83.zippyshare.com/v/F6u7getL/file.html 
 
+Готовый пакет заменяет mesa , libegl1-mesa-dev , mesa-common-dev , libgles2-mesa-dev , libosmesa6-dev , libgl1-mesa-dri:amd64 , libgl1-mesa-dri:i386 , libgbm-dev
+
+И состоит в группах video , games , users , kvm , voice , colord , pulse , pulse-access , bluetooth , rdma , irc
+
+Но лучше сами устанавливайте через make что бы избежать при обновлении ошибок потому что я не директор каноникал и они там могут не понимать что структура у пользователя изменена , но когда установленно через make install то в будущем при обновлении ни каких проблем не будет.
+
 Вы можете перевести эту mesa на другой компилятор более новый или старый открыв сначала config.status найдите там строчку /usr/lib/llvm-7/include и измените её на свой компилятор после откройте makefile и проделайте то же самое.
+
+Подача именно разгадки сборки без исходного текта отсюда особенно в высших научных кругах считается нарушением патента.
 
 Tennology Griggorii@gmail.com
