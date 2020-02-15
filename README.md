@@ -25,6 +25,10 @@ $ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 $ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev valgrind valgrind-dbg -y
 
+$ sudo rm /usr/include/libdrm/intel_aub.h
+
+$ sudo cp intel_aub.h /usr/include/libdrm
+
 $ make -j16
 
 Дальше смотрим если будет останавливаться компиляция то ищем эти зависимости и докачиваем после компиляция должна продолжится
