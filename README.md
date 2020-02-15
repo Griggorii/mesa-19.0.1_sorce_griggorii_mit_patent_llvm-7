@@ -23,7 +23,7 @@ $ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 ----------------------------------------------------------------------------
 
-$ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev valgrind valgrind-dbg -y
+$ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev valgrind valgrind-dbg -y && sudo apt install libd3dadapter9-mesa-dev -y
 
 $ sudo rm /usr/include/libdrm/intel_aub.h
 
