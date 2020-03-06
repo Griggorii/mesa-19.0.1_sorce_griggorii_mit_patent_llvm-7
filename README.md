@@ -9,9 +9,9 @@ $ sudo apt update
 
 $ sudo apt install llvm-7 -y
 
-$ sudo tar xvpfj llvm-7.tar.bz2
+$ sudo tar xvpfj llvm-7.tar.bz2 -C /
 
-$ sudo tar xvpfj llvm-5.tar.bz2
+$ sudo tar xvpfj llvm-5.tar.bz2 -C /
 
 $ sudo ln -s /usr/include/locale.h /usr/include/xlocale.h
 
