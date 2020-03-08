@@ -16,6 +16,15 @@ $ sudo tar xvpfj llvm-5.tar.bz2 -C /
 $ sudo ln -s /usr/include/locale.h /usr/include/xlocale.h
 
 ----------------------------------------------------------------------------
+Example python3.8 not python3.8? 
+
+$ sudo ln -s /usr/bin/python3.8 /usr/bin/python
+
+python2.7?
+
+$ sudo ln -s /usr/bin/python2.7 /usr/bin/python
+
+----------------------------------------------------------------------------
 
 run folder tizonia run in folder terminal tizonia
 
