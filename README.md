@@ -36,6 +36,8 @@ $ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-de
 
 Find internet package deb clang-3.9_3.9.1-19ubuntu1_amd64.deb libclang1-3.9_3.9.1-19ubuntu1_amd64.deb libclang-common-3.9-dev_3.9.1-19ubuntu1_amd64.deb libllvm3.9_3.9.1-19ubuntu1_amd64.deb не могу залить место не выделяют так что ищите и ставьте
 
+$ sudo rm -rf /usr/lib/gcc/x86_64-linux-gnu/9/include-fixed/bits
+
 $ sudo rm /usr/include/libdrm/intel_aub.h
 
 $ sudo cp intel_aub.h /usr/include/libdrm
