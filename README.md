@@ -32,9 +32,15 @@ $ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 ----------------------------------------------------------------------------
 
-$ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y
+$ sudo apt update && sudo apt --reinstall install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev llvm-7 clang-7 -y
 
-Find internet package deb clang-3.9_3.9.1-19ubuntu1_amd64.deb libclang1-3.9_3.9.1-19ubuntu1_amd64.deb libclang-common-3.9-dev_3.9.1-19ubuntu1_amd64.deb libllvm3.9_3.9.1-19ubuntu1_amd64.deb не могу залить место не выделяют так что ищите и ставьте
+----------------------------------------------------------------------------
+
+$ sudo apt update && sudo apt --reinstall install libgcrypt20-dev , libxcb-dri3-dev , libxcb-present-dev , python-mako , libxshmfence-dev , libxext-dev , libxdamage-dev , libx11-xcb-dev , libxcb-glx0-dev , libxcb-dri2-0-dev , libexpat1-dev , libxxf86vm-dev , libxvmc-dev , libomxil-bellagio-dev , libva-dev , libclc-dev , libdrm-dev , libegl-dev , libegl1-mesa-dev , libgbm-dev , libgl-dev , libgl1-mesa-dev , libgles-dev , libgles2-mesa-dev , libglvnd-dev , libglx-dev , libopengl-dev , libosmesa6-dev , libpthread-stubs0-dev , libvdpau-dev , libvkd3d-dev , libvkd3d-utils1 , libvulkan-dev , libx11-dev , libxau-dev , libxcb1-dev , libxdmcp-dev , mesa-common-dev , mesa-opencl-icd , nvidia-cg-dev -y && sudo apt --reinstall install libglu1-mesa-dev liblzma-dev libunwind-dev libwayland-egl-backend-dev libxatracker-dev libxine2-bin libxine2-dev libxcb-shm0-dev libxcb-xv0-dev libxcb-xvmc0-dev valgrind valgrind-dbg -y && sudo apt purge xserver-xorg-video-intel -y
+
+----------------------------------------------------------------------------
+
+Find internet package deb clang-3.9_3.9.1-19ubuntu1_amd64.deb / libclang1-3.9_3.9.1-19ubuntu1_amd64.deb / libclang-common-3.9-dev_3.9.1-19ubuntu1_amd64.deb / libllvm3.9_3.9.1-19ubuntu1_amd64.deb не могу залить место не выделяют так что ищите и ставьте
 
 $ sudo rm -rf /usr/lib/gcc/x86_64-linux-gnu/9/include-fixed/bits
 
