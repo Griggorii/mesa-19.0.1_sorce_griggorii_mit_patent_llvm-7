@@ -58,6 +58,8 @@ $ make -j16
 
 $ sudo make install
 
+Test https://www.shadertoy.com/view/3lsSzf replace my fix if #if HW_PERFORMANCE==0
+
 Check info mesa
 
 $ glxinfo
