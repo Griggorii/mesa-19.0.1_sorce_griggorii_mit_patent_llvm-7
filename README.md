@@ -34,6 +34,8 @@ $ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
 $ sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y
 
+Find internet package deb clang-3.9_3.9.1-19ubuntu1_amd64.deb libclang1-3.9_3.9.1-19ubuntu1_amd64.deb libclang-common-3.9-dev_3.9.1-19ubuntu1_amd64.deb libllvm3.9_3.9.1-19ubuntu1_amd64.deb не могу залить место не выделяют так что ищите и ставьте
+
 $ sudo rm /usr/include/libdrm/intel_aub.h
 
 $ sudo cp intel_aub.h /usr/include/libdrm
