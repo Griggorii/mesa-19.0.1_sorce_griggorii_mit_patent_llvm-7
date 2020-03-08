@@ -42,7 +42,7 @@ $ sudo apt update && sudo apt --reinstall install libgcrypt20-dev , libxcb-dri3-
 
 Download install clang-3.8 , llvm-3.8 https://yadi.sk/d/2VipwyfXWQsE0w
 
-Find internet package deb clang-3.9_3.9.1-19ubuntu1_amd64.deb / libclang1-3.9_3.9.1-19ubuntu1_amd64.deb / libclang-common-3.9-dev_3.9.1-19ubuntu1_amd64.deb / libllvm3.9_3.9.1-19ubuntu1_amd64.deb не могу залить место не выделяют так что ищите и ставьте
+Download install clang-3.9 , llvm-3.9 https://yadi.sk/d/rJpPhb6QveP6HA
 
 $ sudo rm -rf /usr/lib/gcc/x86_64-linux-gnu/9/include-fixed/bits
 
