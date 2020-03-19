@@ -28,7 +28,9 @@ $ sudo ln -s /usr/bin/python2.7 /usr/bin/python
 
 run folder tizonia run in folder terminal tizonia
 
-$ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y 
+$ sudo apt update && sudo dpkg -i *.deb
+
+$ sudo apt install -f -y 
 
 ----------------------------------------------------------------------------
 
