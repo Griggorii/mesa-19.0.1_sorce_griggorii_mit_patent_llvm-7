@@ -80,9 +80,9 @@ $ glxinfo
 
                                                            riggorii@gmail.com new command
 
-Mesa gallium x11
+Mesa gallium x11 vulkan drm
 
-$$ ./configure --prefix=/usr --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --sysconfdir=/etc --localstatedir=/var --exec-prefix=/usr/lib/x86_64-linux-gnu/ --enable-glx-tls --enable-xvmc --enable-omx-bellagio --enable-driglx-direct --with-platforms=x11,wayland,drm,surfaceless --enable-xa --enable-texture-float --enable-osmesa --enable-gles1 --enable-gles2 --enable-opencl-icd --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-dri-searchpath=/usr/lib/x86_64-linux-gnu/dri:\\\$\${ORIGIN}/dri:/usr/lib/dri --with-gallium-drivers=r300,r600,radeonsi,svga,swrast --enable-autotools --with-gallium-drivers=r600 --enable-vdpau --enable-va --enable-gles1 --enable-gles2 --disable-llvm
+$$ ./configure --prefix=/usr --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --sysconfdir=/etc --localstatedir=/var --exec-prefix=/usr/lib/x86_64-linux-gnu/ --enable-glx-tls --enable-xvmc --enable-omx-bellagio --enable-driglx-direct --with-platforms=x11,wayland,drm,surfaceless --enable-xa --enable-texture-float --enable-osmesa --enable-gles1 --enable-gles2 --enable-opencl-icd --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-dri-searchpath=/usr/lib/x86_64-linux-gnu/dri:\\\$\${ORIGIN}/dri:/usr/lib/dri --enable-autotools --with-gallium-drivers=r600 --enable-vdpau --enable-va --enable-gles1 --enable-gles2 -enable-gles --with-gallium-drivers=r300,r600,radeonsi,nouveau,virgl,svga,swrast --with-vulkan-drivers=intel
 
 $$ make -i -j16
 
@@ -91,25 +91,6 @@ $$ sudo make -i install
 xvmc problem generate --disable-xvmc and ignore example ( make -i -j16 ) (sudo make -i install )
 
 ----------------------------------------------------------------------------------------------------------------------------
-
-Mesa vulkan drm sysfs no
-
-$$ ./configure --prefix=/usr --exec-prefix=/usr/lib/x86_64-linux-gnu/ --enable-glx-tls --enable-xvmc --enable-omx-bellagio --enable-driglx-direct --with-platforms=x11,wayland,drm,surfaceless --enable-libunwind --enable-va --enable-xa --enable-llvm-shared-libs --enable-texture-float --enable-osmesa --enable-gles1 --enable-gles2 --enable-opencl-icd --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-dri-searchpath=/usr/lib/x86_64-linux-gnu/dri:\\\$\${ORIGIN}/dri:/usr/lib/dri --with-dri-drivers=i915,i965,nouveau,radeon,r200,swrast --with-gallium-drivers=i915,nouveau,r300,kmsro,r600,radeonsi,freedreno,svga,swrast,vc4,tegra,virgl,swr,etnaviv --enable-autotools --with-gallium-drivers=r600 --with-vulkan-drivers=intel --disable-llvm
-
-$$ make -j16
-
-$$ sudo make install
-
-----------------------------------------------------------------------------------------------------------------------------
-
-Mesa vulkan drm sysfs
-
-./configure --prefix=/usr  --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --sysconfdir=/etc --localstatedir=/var --exec-prefix=/usr/lib/x86_64-linux-gnu/ --enable-glx-tls --enable-xvmc --enable-omx-bellagio --enable-driglx-direct --with-platforms=x11,wayland,drm,surfaceless --enable-libunwind --enable-va --enable-xa --enable-llvm-shared-libs --enable-texture-float --enable-osmesa --enable-gles1 --enable-gles2 --enable-opencl-icd --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-dri-searchpath=/usr/lib/x86_64-linux-gnu/dri:\\\$\${ORIGIN}/dri:/usr/lib/dri --with-dri-drivers=i915,i965,nouveau,radeon,r200,swrast --with-gallium-drivers=i915,nouveau,r300,kmsro,r600,radeonsi,freedreno,svga,swrast,vc4,tegra,virgl,swr,etnaviv --enable-autotools --with-gallium-drivers=r600 --with-vulkan-drivers=intel --disable-llvm --enable-sysfs
-
-$$ make -j16
-
-$$ sudo make install
-__________________________________________________________________________
 
 
 Я не имею финансирования что бы далее совершенствовать графические характеристики ОС как Роснано и Сколково и других НКО органзации и вы можете помочь разработкам рублем послав помощь на этот яндекс кошелек https://money.yandex.ru/to/410014999913799 в теме указать на разработку или за разработку.
