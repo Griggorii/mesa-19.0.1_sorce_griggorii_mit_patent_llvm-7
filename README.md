@@ -84,7 +84,8 @@ Mesa gallium x11 vulkan drm
 
 $$ ./configure --prefix=/usr --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --sysconfdir=/etc --localstatedir=/var --exec-prefix=/usr/lib/x86_64-linux-gnu --enable-glx-tls --enable-xvmc --enable-omx-bellagio --enable-driglx-direct --with-platforms=x11,wayland,drm,surfaceless --enable-xa --enable-texture-float --enable-osmesa --enable-gles1 --enable-gles2 --enable-opencl-icd --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-dri-searchpath=/usr/lib/x86_64-linux-gnu/dri:\\\$\${ORIGIN}/dri:/usr/lib/dri --enable-autotools --with-gallium-drivers=r600 --enable-vdpau --enable-va --enable-gles1 --enable-gles2 -enable-gles --with-gallium-drivers=r300,r600,radeonsi,nouveau,virgl,svga,swrast --with-vulkan-drivers=intel
 
-Easy configuration
+Easy configuration linux OS8.0
+
 $$ ./configure --prefix=/usr --exec_prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --includedir=/usr/include --enable-glx-tls --enable-driglx-direct --enable-xa --enable-texture-float --enable-osmesa --enable-gles1 --enable-gles2 --enable-opencl-icd --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-gallium-drivers=r300,r600,radeonsi,svga,swrast --enable-autotools --with-gallium-drivers=r600 --disable-gallium-llvm --with-vulkan-drivers=intel
 
 $$ make -i -j16
